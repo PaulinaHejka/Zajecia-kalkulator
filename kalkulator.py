@@ -1,4 +1,4 @@
-print(''To jest prosty kalkulator!)
+print('To jest prosty kalkulator!')
 def dodaj():
 	a = int(input())
 	b = int(input())

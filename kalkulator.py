@@ -1,11 +1,17 @@
 print('To jest prosty kalkulator!')
+
 def gethelp():
 	print("Podaj dwie liczby:")
 
-def dodaj():
-	a = int(input())
-	b = int(input())
-	print(a+b)
+def dodaj(a,b):
+	return a+b
+	
+gethelp()		
 
-gethelp()
+x = int(input())
+y= int(input())
+print(dodaj(x, y))	
+
 print('Koniec programu! :)')
+
+
